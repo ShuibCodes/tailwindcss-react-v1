@@ -1,11 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.menu-card {
-  @apply flex flex-col justify-center items-center bg-white h-screen font-mono py-40;
-}
-
-.center-content {
-  @apply flex flex-col justify-center items-center;
+@layer base {
+    html{
+        background-color: #111827
+    }
 }
