@@ -2,39 +2,37 @@ import React from 'react';
 
 function Banner() {
 	return (
-		
-		<div className="">
-        <div style={{backgroundColor: '#1f2937', width: '1288px'}} className="rounded-lg ">
-          <div className="flex flex-start rounded-lg">
-            <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:py-32 lg:px-8 lg:py-20 rounded-lg">
-              <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                <span style={{color: '#7984d6'}} className="block text-indigo-600">
-                  The standard chunk of Lorem Ipsum used since
-                  the 1500s
-                </span>
-              </h1>
-              <p className="leading-6 py-2 text-white">
-                the majority have suffered alteration in some
-                form, by injected humour, or randomised words
-                which don't look even slightly believable.
-              </p>
-              <div style={{backgroundcolor: '"#9A61E3"}}'}} className="mt-4 flex">
-                <div className="inline-flex rounded-md shadow">
-                  <a style={{backgroundColor: '#7984d6'}} href="#" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
-                    Explore Collection
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="align-items py-6 pr-6">
-              <img className="align-items" src="https://via.placeholder.com/350x500" alt="images" />
-            </div>
-          </div>
-        </div>
-
-		
-     
-      </div>
+		<div className=" max-w-8xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+			<div
+				style={{ backgroundColor: '#1F2937' }}
+				className="rounded-lg shadow-xl overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4"
+			>
+				<div className="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
+					<div className="lg:self-center md:w-full">
+						<h1 className="text-2xl tracking-tight font-bold text-white md:text-6xl ">
+							Ready to dive in? Start your free trial today
+						</h1>
+						<p className="mt-4 text-lg leading-6 text-indigo-200">
+							Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing
+							sagittis vel nulla nec.
+						</p>
+						<a
+							href="#"
+							className="mt-8 bg-white border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-medium text-indigo-600 hover:bg-indigo-50"
+						>
+							Sign up for free
+						</a>
+					</div>
+				</div>
+				<div className="-mt-6 md:ml-32  aspect-w-1/4 aspect-h-3 md:aspect-w-2 md:aspect-h-2 ">
+					<img
+						className="p-12 rounded object-cover"
+						src="https://via.placeholder.com/300x400"
+						alt="App screenshot"
+					/>
+				</div>
+			</div>
+		</div>
 	);
 }
 

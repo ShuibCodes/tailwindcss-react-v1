@@ -1,4 +1,3 @@
-
 const posts = [
 	{
 		title: 'Boost your conversion rate',
@@ -13,7 +12,8 @@ const posts = [
 		author: {
 			name: 'Roel Aufderehar',
 			href: '#',
-			imageUrl: 'https://uploads-ssl.webflow.com/616a91ca55855d3775d98a50/62499d5f5d424764d4ebae16_237x202%201.png',
+			imageUrl:
+				'https://uploads-ssl.webflow.com/616a91ca55855d3775d98a50/62499d5f5d424764d4ebae16_237x202%201.png',
 		},
 	},
 	{
@@ -29,7 +29,8 @@ const posts = [
 		author: {
 			name: 'Roel Aufderehar',
 			href: '#',
-			imageUrl: 'https://uploads-ssl.webflow.com/616a91ca55855d3775d98a50/62499d5f5d424764d4ebae16_237x202%201.png',
+			imageUrl:
+				'https://uploads-ssl.webflow.com/616a91ca55855d3775d98a50/62499d5f5d424764d4ebae16_237x202%201.png',
 		},
 	},
 	{
@@ -45,7 +46,8 @@ const posts = [
 		author: {
 			name: 'Brenna Goyette',
 			href: '#',
-			imageUrl: 'https://uploads-ssl.webflow.com/616a91ca55855d3775d98a50/62499d5f5d424764d4ebae16_237x202%201.png',
+			imageUrl:
+				'https://uploads-ssl.webflow.com/616a91ca55855d3775d98a50/62499d5f5d424764d4ebae16_237x202%201.png',
 		},
 	},
 	{
@@ -61,7 +63,8 @@ const posts = [
 		author: {
 			name: 'Daniela Metz',
 			href: '#',
-			imageUrl: 'https://uploads-ssl.webflow.com/616a91ca55855d3775d98a50/62499d5f5d424764d4ebae16_237x202%201.png',
+			imageUrl:
+				'https://uploads-ssl.webflow.com/616a91ca55855d3775d98a50/62499d5f5d424764d4ebae16_237x202%201.png',
 		},
 	},
 ];
@@ -69,15 +72,15 @@ const posts = [
 export default function Example() {
 	return (
 		<div>
-			<div className="relative  max-w-7xl mx-auto">
+			<div className="max-w-screen-xl mx-auto">
 				<div
-					className="mt-12  max-w-lg mx-auto grid gap-12 lg:grid-cols-4 lg:max-w-none
+					className="max-w-screen-xl mx-auto grid gap-12 lg:grid-cols-4 lg:max-w-none
           
           "
 				>
 					{posts.map((post) => (
 						<div
-							style={{ width: '310px', backgroundColor: '#1F2937' }}
+							style={{ backgroundColor: '#1F2937' }}
 							key={post.title}
 							className="border  flex flex-col rounded-lg shadow-lg overflow-hidden"
 						>

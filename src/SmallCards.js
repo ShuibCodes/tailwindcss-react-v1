@@ -8,13 +8,13 @@ const users = [
 
 export default function SmallCards() {
 	return (
-		<div className=" md:flex md:space-x-8 md:py-8 mr-32">
+		<div className="pl-6 md:pl-0 md:flex space-y-12 md:space-y-3 md:space-x-3  md:py-8">
 			<div
-				style={{ backgroundColor: '#1F2937', height: '184px', minWidth: '300px' }}
+				style={{ backgroundColor: '#1F2937', height: '184px', minWidth: '300px'}}
 				className="rounded-3xl overflow-hidden shadow-xl max-w-xs my-3 "
 			>
 				<img style={{ width: '380px' }} src="http://placehold.jp/270x80.png" className=" h-24" />
-				<div className="flex justify-center -mt-8 rounded-lg">
+				<div className="flex justify-center rounded-lg">
 					<img
 						src="https://i.imgur.com/8Km9tLL.jpg"
 						className="rounded-full border-solid border-white border-2 -mt-3 rounded-lg"
@@ -25,11 +25,11 @@ export default function SmallCards() {
 				</div>
 			</div>
 			<div
-				style={{ backgroundColor: '#1F2937', height: '184px', minWidth: '300px' }}
+				style={{ backgroundColor: '#1F2937', height: '184px', minWidth: '300px'}}
 				className="rounded-3xl overflow-hidden shadow-xl max-w-xs my-3 "
 			>
 				<img style={{ width: '380px' }} src="http://placehold.jp/270x80.png" className=" h-24" />
-				<div className="flex justify-center -mt-8 rounded-lg">
+				<div className="flex justify-center rounded-lg">
 					<img
 						src="https://i.imgur.com/8Km9tLL.jpg"
 						className="rounded-full border-solid border-white border-2 -mt-3 rounded-lg"
@@ -40,11 +40,11 @@ export default function SmallCards() {
 				</div>
 			</div>
 			<div
-				style={{ backgroundColor: '#1F2937', height: '184px', minWidth: '300px' }}
+				style={{ backgroundColor: '#1F2937', height: '184px', minWidth: '300px'}}
 				className="rounded-3xl overflow-hidden shadow-xl max-w-xs my-3 "
 			>
 				<img style={{ width: '380px' }} src="http://placehold.jp/270x80.png" className=" h-24" />
-				<div className="flex justify-center -mt-8 rounded-lg">
+				<div className="flex justify-center rounded-lg">
 					<img
 						src="https://i.imgur.com/8Km9tLL.jpg"
 						className="rounded-full border-solid border-white border-2 -mt-3 rounded-lg"
@@ -55,11 +55,11 @@ export default function SmallCards() {
 				</div>
 			</div>
 			<div
-				style={{ backgroundColor: '#1F2937', height: '184px', minWidth: '300px' }}
+				style={{ backgroundColor: '#1F2937', height: '184px', minWidth: '300px'}}
 				className="rounded-3xl overflow-hidden shadow-xl max-w-xs my-3 "
 			>
 				<img style={{ width: '380px' }} src="http://placehold.jp/270x80.png" className=" h-24" />
-				<div className="flex justify-center -mt-8 rounded-lg">
+				<div className="flex justify-center rounded-lg">
 					<img
 						src="https://i.imgur.com/8Km9tLL.jpg"
 						className="rounded-full border-solid border-white border-2 -mt-3 rounded-lg"

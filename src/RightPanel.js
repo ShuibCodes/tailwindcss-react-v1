@@ -1,6 +1,7 @@
 import React from 'react';
 import { Disclosure } from '@headlessui/react';
 import { ChevronDownIcon } from '@heroicons/react/outline';
+import './styles.css'
 const Titles = [
 	{
 		text: 'Property',
@@ -16,17 +17,18 @@ function classNames(...classes) {
 	return classes.filter(Boolean).join(' ');
 }
 
+
 function RightPanel() {
 	return (
 		<div
-			style={{ minWidth: '400px', minHeight: '1000px', backgroundColor: '#1F2937' }}
-			className="mx-6 px-1 mt-4 row-span-2  rounded-lg  shadow"
+			style={{ backgroundColor: '#1F2937'  }}
+			className="fit-content mx-6   px-1 mt-4 row-span-2  rounded-lg  shadow "
 		>
-			<div className="p-3">
-				<div className="flow-root mt-6">
-					<div>
+			<div className="p-3 ">
+				<div className="flow-root mt-6 ">
+					<div className="">
 						<img
-							className="w-full h-100 object-cover rounded-lg"
+							className="object-cover rounded-lg"
 							src="http://placehold.jp/372x270.png"
 							alt="right-panel-image"
 						/>
@@ -38,13 +40,13 @@ function RightPanel() {
 						<h3 style={{ fontSize: '18px' }} className=" text-1xl font-semibold text-white py-4">
 							Auction Ends in{' '}
 						</h3>
-						<div className="inline space-x-8">
+						<div className="md:space-x-8">
 							<button className="bg-transparent hover:bg-blue-500 text-white font-semibold hover:text-white py-2 px-12 border border-blue-500 hover:border-transparent rounded-lg">
 								Expand
 							</button>
 							<button
 								style={{ backgroundColor: '#6F8DD1' }}
-								className="hover:bg-blue-700 text-white font-Lexend py-2 px-12 border rounded-lg"
+								className="hover:bg-blue-700 text-white font-Lexend mt-4 md:mt-0  py-2 px-12 border rounded-lg"
 							>
 								Place bid
 							</button>
