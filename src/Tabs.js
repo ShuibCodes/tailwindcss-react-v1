@@ -5,7 +5,7 @@ function classNames(...classes) {
 
 export default function Tabs() {
 	return (
-		<div style={{ backgroundColor: '#1F2937', maxWidth: '210px' }} className=" py-2 px-1 rounded-xl">
+		<div style={{ backgroundColor: '#1F2937', maxWidth: '210px' }} className=" py-2   ml-10 px-1 rounded-xl">
 			<div className="sm:hidden">
 				<label htmlFor="tabs" className="sr-only">
 					Select a tab
@@ -24,8 +24,8 @@ export default function Tabs() {
 			</div>
 			
             
-            <div className="hidden sm:block ">
-				<nav className="flex space-x-2" aria-label="Tabs">
+            <div className="hidden sm:block">
+				<nav className="flex space-x-4 " aria-label="Tabs">
 					<a
 						href="#"
 						className="text-gray-300  border-2 outline-2 border-gray hover:text-gray-400 px-4 py-1 font-medium text-sm rounded-lg"

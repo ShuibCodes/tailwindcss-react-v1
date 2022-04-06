@@ -24,9 +24,9 @@ function Banner() {
 						</a>
 					</div>
 				</div>
-				<div className="-mt-6 md:ml-32  aspect-w-1/4 aspect-h-3 md:aspect-w-2 md:aspect-h-2 ">
-					<img
-						className="p-12 rounded object-cover"
+				<div className="-mt-6 md:ml-32  aspect-w-1/4 aspect-h-1 md:aspect-w-2 md:aspect-h-1 ">
+					<img style={{width:"80%"}}
+						className="p-12 md:ml-16 rounded object-cover" 
 						src="https://via.placeholder.com/300x400"
 						alt="App screenshot"
 					/>

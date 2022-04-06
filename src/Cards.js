@@ -72,7 +72,7 @@ const posts = [
 export default function Example() {
 	return (
 		<div>
-			<div className="max-w-screen-xl mx-auto">
+			<div className=" mt- md:mt-0 max-w-100 px-12 md:max-w-100   md:px-12 mr-6 lg:relative right-1  mx-auto">
 				<div
 					className="max-w-screen-xl mx-auto grid gap-12 lg:grid-cols-4 lg:max-w-none
           
@@ -82,7 +82,7 @@ export default function Example() {
 						<div
 							style={{ backgroundColor: '#1F2937' }}
 							key={post.title}
-							className="border  flex flex-col rounded-lg shadow-lg overflow-hidden"
+							className="flex flex-col rounded-xl py-2 shadow-lg overflow-hidden"
 						>
 							<div className="flex-shrink-0 rounded-lg">
 								<img className="h-full w-full p-6 object-cover" src={post.imageUrl} alt="" />

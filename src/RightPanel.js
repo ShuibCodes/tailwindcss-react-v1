@@ -21,11 +21,11 @@ function classNames(...classes) {
 function RightPanel() {
 	return (
 		<div
-			style={{ backgroundColor: '#1F2937'  }}
-			className="fit-content mx-6   px-1 mt-4 row-span-2  rounded-lg  shadow "
+			style={{ backgroundColor: '#1F2937' , maxHeight:"60%" }}
+			className="fit-content mx-6 px-1 mt-4 md:mt-24 row-span-2  rounded-lg  shadow "
 		>
-			<div className="p-3 ">
-				<div className="flow-root mt-6 ">
+			<div className="p-3  ">
+				<div className="flow-root  mt-6 ">
 					<div className="">
 						<img
 							className="object-cover rounded-lg"
