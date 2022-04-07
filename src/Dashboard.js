@@ -72,9 +72,12 @@ export default function Dashboard() {
 									<Tabs />
 								</div>
 							</div>
-							<Cards />
+							<div  className="xl:relative right-12">
+								<Cards/>
+							</div>
+							
 						</div>
-						<div className="hidden md:block">
+						<div className="hidden md:block md:relative right-12">
 						<RightPanel />
 						</div>
 				

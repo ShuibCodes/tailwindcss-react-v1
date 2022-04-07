@@ -14,10 +14,10 @@ export default function SmallCards() {
 
 		<div className="pl-6 md:pl-7 md:flex space-y-12 md:space-y-3 md:space-x-8  md:py-8 ">
 			<div
-				style={{ backgroundColor: '#1F2937', height: '184px', minWidth: '280px' }}
+				style={{ backgroundColor: '#1F2937', height: '200px', minWidth: '330px' }}
 				className="rounded-3xl overflow-hidden shadow-xl max-w-xs my-3 "
 			>
-				<img style={{ width: '300px' }} src="http://placehold.jp/270x80.png" className=" h-24" />
+				<img style={{ width: '360px' }} src="http://placehold.jp/270x80.png" className=" h-24" />
 				<div className="flex justify-center rounded-lg">
 					<img
 						src="https://i.imgur.com/8Km9tLL.jpg"
@@ -30,10 +30,10 @@ export default function SmallCards() {
 			</div>
 			
 			<div
-				style={{ backgroundColor: '#1F2937', height: '184px', minWidth: '280px' }}
+				style={{ backgroundColor: '#1F2937', height: '200px', minWidth: '330px'}}
 				className="rounded-3xl overflow-hidden shadow-xl max-w-xs my-3 "
 			>
-				<img style={{ width: '300px' }} src="http://placehold.jp/270x80.png" className=" h-24" />
+				<img style={{ width: '360px' }} src="http://placehold.jp/270x80.png" className=" h-24" />
 				<div className="flex justify-center rounded-lg">
 					<img
 						src="https://i.imgur.com/8Km9tLL.jpg"
@@ -45,10 +45,10 @@ export default function SmallCards() {
 				</div>
 			</div>
 			<div
-				style={{ backgroundColor: '#1F2937', height: '184px', minWidth: '280px' }}
+				style={{ backgroundColor: '#1F2937', height: '200px', minWidth: '330px' }}
 				className="rounded-3xl overflow-hidden shadow-xl max-w-xs my-3 "
 			>
-				<img style={{ width: '300px' }} src="http://placehold.jp/270x80.png" className=" h-24" />
+				<img style={{ width: '360px' }} src="http://placehold.jp/270x80.png" className=" h-24" />
 				<div className="flex justify-center rounded-lg">
 					<img
 						src="https://i.imgur.com/8Km9tLL.jpg"
@@ -60,10 +60,10 @@ export default function SmallCards() {
 				</div>
 			</div>
 			<div
-				style={{ backgroundColor: '#1F2937', height: '184px', minWidth: '280px' }}
+				style={{ backgroundColor: '#1F2937', height: '200px', minWidth: '330px' }}
 				className="rounded-3xl overflow-hidden shadow-xl max-w-xs my-3 "
 			>
-				<img style={{ width: '300px' }} src="http://placehold.jp/270x80.png" className=" h-24" />
+				<img style={{ width: '360px' }} src="http://placehold.jp/270x80.png" className=" h-24" />
 				<div className="flex justify-center rounded-lg">
 					<img
 						src="https://i.imgur.com/8Km9tLL.jpg"

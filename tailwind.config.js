@@ -9,24 +9,25 @@ module.exports = {
 	purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
 	darkMode: false, // or 'media' or 'class'
 	theme: {
+		
 		extend: {
 			colors: {
 				amber: colors.amber,
 				lightBlue: colors.lightBlue,
-				rose: colors.rose,
+			
 				gray: colors.gray,
 			},
 		},
 		backgroundImage: (theme) => ({
-			'conic-gradient': conicGradient(theme, 'from 300deg', [
-				'red.400',
-				'amber.100',
+			'conic-gradient': conicGradient(theme, 'from 400deg', [
+				
+
 				'lightBlue.500',
 				'blue.300',
 				'purple.600',
 				'pink.500',
-				'rose.600',
-				'red.400',
+			
+				
 			]),
 		}),
 	},
